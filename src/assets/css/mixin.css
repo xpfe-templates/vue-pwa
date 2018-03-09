@@ -1,0 +1,11 @@
+/* 清浮动 */
+.clearfix {
+  &:after {
+    content: ' ' !important;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    font-size: 0;
+    height: 0;
+  }
+}
