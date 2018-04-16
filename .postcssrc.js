@@ -5,6 +5,7 @@ module.exports = {
     'postcss-aspect-ratio-mini': {},
     'postcss-write-svg': { utf8: false },
     'postcss-cssnext': {},
+    'postcss-nested': {},
     'postcss-px-to-viewport': {
       viewportWidth: 750,
       viewportHeight: 1334,
