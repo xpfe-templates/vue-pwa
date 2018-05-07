@@ -6,6 +6,4 @@
  * @desc [全局filters过滤器]
 */
 
-import { thousands, percent } from 'xp-utils'
-
-export { thousands, percent }
+export { formatDate, thousands } from 'xp-utils'

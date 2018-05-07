@@ -1,14 +1,15 @@
 /**
  * @author xiaoping
  * @email edwardhjp@gmail.com
- * @create date 2017-06-06 07:46:07
- * @modify date 2017-08-03 07:12:20
- * @desc [全局组件文件]
-*/
+ * @create date 2018-05-03 02:59:32
+ * @modify date 2018-05-03 02:59:32
+ * @desc [全局组件]
+ */
 
 import Vue from 'vue'
 
 const components = []
-components.forEach((component) => {
+
+components.forEach(component => {
   Vue.component(component.name, component)
 })

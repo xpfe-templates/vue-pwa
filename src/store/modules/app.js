@@ -1,15 +1,26 @@
-/**
- * @author xiaoping
- * @email edwardhjp@gmail.com
- * @create date 2017-08-03 07:04:41
- * @modify date 2017-08-03 07:04:41
- * @desc [app store, 主要放置全站相关内容]
-*/
+// import request from '@/api/request'
+// import urls from '@/api/urls'
 
-const app = {
-  state: {},
-  mutations: {},
-  actions: {},
+let state = {
+  name: 'xiaoping'
+}
+const mutations = {
+  'SET_NAME'(state, data) {
+    state.name = data
+  }
+}
+const actions = {
+  SetName({ commit }, params) {
+    commit('SET_NAME', params.name)
+  }
+}
+const getters = {
+  name: state => state.name
 }
 
-export default app
+export default {
+  state,
+  mutations,
+  actions,
+  getters
+}

@@ -13,13 +13,13 @@ module.exports = {
       viewportUnit: 'vw',
       selectorBlackList: ['.ignore', '.hairlines'],
       minPixelValue: 1,
-      mediaQuery: false,
+      mediaQuery: false
     },
     'postcss-viewport-units': {},
     cssnano: {
       preset: 'advanced',
       autoprefixer: false,
-      'postcss-zindex': false,
-    },
-  },
+      'postcss-zindex': false
+    }
+  }
 }
